@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Generator and Grader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>MCQ Generator and Grader</h1>
+    <form id="topic-form">
+        <label for="topic">Enter a topic:</label>
+        <input type="text" id="topic" name="topic" required>
+        <button type="submit">Generate MCQ</button>
+    </form>
+    <section id="mcq-section" style="display: none;">
+        <form id="mcq-form">
+            <div id="questions-container"></div>
+            <button type="submit">Submit MCQ</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
